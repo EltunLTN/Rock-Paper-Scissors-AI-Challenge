@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>✊✋✌️ Rock Paper Scissors</h1>
+    <div class="video-container">
+        <img src="{{ url_for('video_feed') }}" id="video">
+    </div>
+    <button id="resetBtn">🔄 Reset Game</button>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
